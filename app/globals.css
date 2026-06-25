@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@theme {
+  /* SafeSnack Premium Palette — Aesop × Apple × Luxury Organic
+     Distribution: 70% Warm Ivory · 15% Charcoal · 10% Forest · 5% Honey */
+
+  /* Core semantic tokens */
+  --color-background: #FAF8F3;
+  --color-surface: #F1ECE4;
+  --color-primary: #233127;
+  --color-primary-hover: #2D4030;
+  --color-text: #1B1B18;
+  --color-text-muted: #5F625A;
+  --color-accent: #C48A53;
+  --color-accent-hover: #B27843;
+  --color-border: #DDD6CB;
+  --color-success: #73836E;
+
+  /* Backward-compatible aliases (used in Tailwind utilities across components) */
+  --color-alabaster: #FAF8F3;
+  --color-bone: #FAF8F3;
+  --color-pearl: #F1ECE4;
+  --color-charcoal: #1B1B18;
+  --color-emerald: #233127;
+  --color-forest: #233127;
+  --color-gold: #C48A53;
+  --color-sage: #F1ECE4;
+  --color-clay: #B27843;
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-fraunces), serif;
+}
+
+:root {
+  --background: #FAF8F3;
+  --foreground: #1B1B18;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Micro-animations and page transitions (≤ 300ms) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 350ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 600ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Split-text masking */
+.clip-text-parent {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.clip-text-child {
+  display: inline-block;
+  transform: translateY(100%);
+  animation: revealText 800ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes revealText {
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Glassmorphism panels */
+.glass-panel {
+  background: rgba(241, 236, 228, 0.55);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 8px 32px 0 rgba(27, 27, 24, 0.04);
+}
+
+.glass-panel-dark {
+  background: rgba(35, 49, 39, 0.92);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(196, 138, 83, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Custom scrollbar — warm, premium tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  opacity: 0.6;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+/* Scroll-driven animations (CSS native) */
+@supports (animation-timeline: view()) {
+  .scroll-reveal-item {
+    animation: revealUp linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+  }
+
+  .scroll-parallax-bg {
+    animation: parallaxBg linear both;
+    animation-timeline: view();
+    animation-range: entry 0% exit 100%;
+  }
+}
+
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes parallaxBg {
+  from {
+    transform: translateY(-25px);
+  }
+  to {
+    transform: translateY(25px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in,
+  .animate-fade-in-up,
+  .clip-text-child,
+  .scroll-reveal-item {
+    animation: none !important;
+    transform: none !important;
+  }
+}
