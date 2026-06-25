@@ -959,7 +959,7 @@ export class MockDatabase {
     if (typeof window === 'undefined') return;
     if (this.isInitialized && !force) return;
 
-    const currentVersion = "v3";
+    const currentVersion = "v4";
     const storedVersion = localStorage.getItem('ss_seed_version');
     const needsSeed = !localStorage.getItem('ss_brands') || storedVersion !== currentVersion;
 
