@@ -311,7 +311,7 @@ const SEED_PRODUCTS: Product[] = [
       ],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.8,
@@ -341,7 +341,7 @@ const SEED_PRODUCTS: Product[] = [
       gallery: ["https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.6,
@@ -366,12 +366,12 @@ const SEED_PRODUCTS: Product[] = [
     featuredIngredients: ["Non-GMO Soy Flour", "Rice Flour", "Chili Powder", "Amchur", "Rock Salt"],
     servingSuggestions: ["Serve with afternoon tea or chai", "Mix with raw onions, coriander, and lemon juice for a quick soya chaat"],
     images: {
-      primary: "https://images.unsplash.com/photo-1618258262447-db5d64d73a26?q=80&w=600&fit=crop",
-      hover: "https://images.unsplash.com/photo-1599490659223-e1b69494db53?q=80&w=600&fit=crop",
-      gallery: ["https://images.unsplash.com/photo-1618258262447-db5d64d73a26?q=80&w=600&fit=crop"],
+      primary: "https://images.unsplash.com/photo-1566478989037-eec170784d0b?q=80&w=600&fit=crop",
+      hover: "https://images.unsplash.com/photo-1541795795328-f073b763494e?q=80&w=600&fit=crop",
+      gallery: ["https://images.unsplash.com/photo-1566478989037-eec170784d0b?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.4,
@@ -396,12 +396,12 @@ const SEED_PRODUCTS: Product[] = [
     featuredIngredients: ["Ragi (Finger Millet) Flour (70%)", "Whole Wheat Flour", "Cold-pressed Coconut Oil", "Black Pepper", "Himalayan Salt"],
     servingSuggestions: ["Eat as a mid-morning workplace snack", "Dip in sesame tahini or peanut butter for extra protein"],
     images: {
-      primary: "https://images.unsplash.com/photo-1599490659223-e1b69494db53?q=80&w=600&fit=crop",
-      hover: "https://images.unsplash.com/photo-1618258262447-db5d64d73a26?q=80&w=600&fit=crop",
-      gallery: ["https://images.unsplash.com/photo-1599490659223-e1b69494db53?q=80&w=600&fit=crop"],
+      primary: "https://images.unsplash.com/photo-1541795795328-f073b763494e?q=80&w=600&fit=crop",
+      hover: "https://images.unsplash.com/photo-1566478989037-eec170784d0b?q=80&w=600&fit=crop",
+      gallery: ["https://images.unsplash.com/photo-1541795795328-f073b763494e?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.7,
@@ -431,7 +431,7 @@ const SEED_PRODUCTS: Product[] = [
       gallery: ["https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.9,
@@ -456,12 +456,12 @@ const SEED_PRODUCTS: Product[] = [
     featuredIngredients: ["Cocoa Mass (85%)", "Cocoa Butter", "Erythritol", "Organic Stevia Leaf Extract", "Sunflower Lecithin"],
     servingSuggestions: ["Melt a square over morning keto oats", "Savor one piece slowly after dinner to curb sugar cravings"],
     images: {
-      primary: "https://images.unsplash.com/photo-1548907040-4d42b52125ca?q=80&w=600&fit=crop",
+      primary: "https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=600&fit=crop",
       hover: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=600&fit=crop",
-      gallery: ["https://images.unsplash.com/photo-1548907040-4d42b52125ca?q=80&w=600&fit=crop"],
+      gallery: ["https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.8,
@@ -487,11 +487,11 @@ const SEED_PRODUCTS: Product[] = [
     servingSuggestions: ["Warm for 10 seconds in the microwave", "Serve with a scoop of our Sugar-Free Vanilla Ice Cream"],
     images: {
       primary: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=600&fit=crop",
-      hover: "https://images.unsplash.com/photo-1548907040-4d42b52125ca?q=80&w=600&fit=crop",
+      hover: "https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=600&fit=crop",
       gallery: ["https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.9,
@@ -521,7 +521,7 @@ const SEED_PRODUCTS: Product[] = [
       gallery: ["https://images.unsplash.com/photo-1501443762994-82bd5dace89a?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.5,
@@ -546,12 +546,12 @@ const SEED_PRODUCTS: Product[] = [
     featuredIngredients: ["Rolled Oats (65%)", "Whey Protein Isolate (20%)", "Organic Chia Seeds", "Almond Slivers", "Organic Stevia Leaf"],
     servingSuggestions: ["Soak overnight in almond milk or water", "Microwave for 90 seconds and top with fresh berries"],
     images: {
-      primary: "https://images.unsplash.com/photo-1517881917430-e70dfb3610aa?q=80&w=600&fit=crop",
+      primary: "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?q=80&w=600&fit=crop",
       hover: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?q=80&w=600&fit=crop",
-      gallery: ["https://images.unsplash.com/photo-1517881917430-e70dfb3610aa?q=80&w=600&fit=crop"],
+      gallery: ["https://images.unsplash.com/photo-1586444248902-2f64eddc13df?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.8,
@@ -577,11 +577,11 @@ const SEED_PRODUCTS: Product[] = [
     servingSuggestions: ["Drink chilled post-workout", "Blend with ice for a frosty summer smoothie"],
     images: {
       primary: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?q=80&w=600&fit=crop",
-      hover: "https://images.unsplash.com/photo-1517881917430-e70dfb3610aa?q=80&w=600&fit=crop",
+      hover: "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?q=80&w=600&fit=crop",
       gallery: ["https://images.unsplash.com/photo-1553530666-ba11a7da3888?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.7,
@@ -606,12 +606,12 @@ const SEED_PRODUCTS: Product[] = [
     featuredIngredients: ["Foxtail Millet Flour (40%)", "Ragi Flour (20%)", "High-Protein Wheat Gluten", "Water", "Included Spice Tastemaker (Zero MSG)"],
     servingSuggestions: ["Stir fry with fresh cabbage, capsicum, and carrots", "Cook as soupy noodles with coriander leaves"],
     images: {
-      primary: "https://images.unsplash.com/photo-1612966608967-302fc5b89fe7?q=80&w=600&fit=crop",
+      primary: "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=600&fit=crop",
       hover: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=600&fit=crop",
-      gallery: ["https://images.unsplash.com/photo-1612966608967-302fc5b89fe7?q=80&w=600&fit=crop"],
+      gallery: ["https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.3,
@@ -637,11 +637,11 @@ const SEED_PRODUCTS: Product[] = [
     servingSuggestions: ["Toss with cold-pressed olive oil, garlic, and cherry tomatoes", "Bake with spinach and vegan mozzarella cheese"],
     images: {
       primary: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=600&fit=crop",
-      hover: "https://images.unsplash.com/photo-1612966608967-302fc5b89fe7?q=80&w=600&fit=crop",
+      hover: "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=600&fit=crop",
       gallery: ["https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.6,
@@ -671,7 +671,7 @@ const SEED_PRODUCTS: Product[] = [
       gallery: ["https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=600&fit=crop"],
       lifestyle: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&fit=crop",
       nutrition: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=600&fit=crop",
-      ingredients: "https://images.unsplash.com/photo-1607305387299-a3d9611cd46f?q=80&w=600&fit=crop"
+      ingredients: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=600&fit=crop"
     },
     isActive: true,
     ratingCache: 4.8,
@@ -779,7 +779,7 @@ const SEED_BUNDLES: Bundle[] = [
     description: "The ultimate pack for fitness enthusiasts. High protein rolled oats, premium Alphonso mango shakes, air-dried millet noodles, and crispy soya chips.",
     price: 1390,
     compareAtPrice: 1775,
-    images: ["https://images.unsplash.com/photo-1517881917430-e70dfb3610aa?q=80&w=600&fit=crop"],
+    images: ["https://images.unsplash.com/photo-1586444248902-2f64eddc13df?q=80&w=600&fit=crop"],
     dietaryTags: ["high-protein", "sugar-free"],
     items: [
       { variantId: "var-9a", qty: 2 }, // Rolled Oats 400g (350 x 2 = 700)
@@ -959,7 +959,12 @@ export class MockDatabase {
     if (typeof window === 'undefined') return;
     if (this.isInitialized && !force) return;
 
-    if (!localStorage.getItem('ss_brands') || force) {
+    const currentVersion = "v3";
+    const storedVersion = localStorage.getItem('ss_seed_version');
+    const needsSeed = !localStorage.getItem('ss_brands') || storedVersion !== currentVersion;
+
+    if (needsSeed || force) {
+      localStorage.setItem('ss_seed_version', currentVersion);
       localStorage.setItem('ss_brands', JSON.stringify(SEED_BRANDS));
       localStorage.setItem('ss_categories', JSON.stringify(SEED_CATEGORIES));
       localStorage.setItem('ss_products', JSON.stringify(SEED_PRODUCTS));
