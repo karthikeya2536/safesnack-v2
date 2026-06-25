@@ -65,13 +65,13 @@ export default function AdminProductsCrud() {
     refreshData();
   }, []);
 
-  const refreshData = () => {
+  function refreshData() {
     setProducts(MockDatabase.getProducts());
     setVariants(MockDatabase.getVariants());
     setBundles(MockDatabase.getBundles());
     setBrands(MockDatabase.getBrands());
     setCategories(MockDatabase.getCategories());
-  };
+  }
 
   // Open product editor
   const handleEditProduct = (p: Product) => {
